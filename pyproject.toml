@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "deskdrop-kaggle"
+version = "0.1.0"
+description = ""
+authors = ["JonathanHourany"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+scipy = "^1.8.0"
+pandas = "^1.4.1"
+seaborn = "^0.11.2"
+streamlit = "^1.5.1"
+tabulate = "^0.8.9"
+pandas-profiling = "^3.1.0"
+pydeck = "^0.7.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = {version = "^22.1.0", allow-prereleases = true}
+isort = "^5.10.1"
+flake8 = "^4.0.1"
+wheel = "^0.37.1"
+ipython = "^8.0.1"
+jupyterlab = "^3.2.9"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.mypy]
+plugins = "numpy.typing.mypy_plugin"

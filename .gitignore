@@ -1,0 +1,67 @@
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+.mypy_cache/
+*.py[cod]
+*$py.class
+*.joblib
+
+# Distribution / packaging
+.Python
+env/
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+*.egg-info/
+lib64/
+parts/
+sdist/
+var/
+.installed.cfg
+
+# IDE settings
+.idea/
+.vscode/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+.pytest_cache/
+
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+#Ipython Notebook
+.ipynb_checkpoints
+
+# virtual env
+venv
+
+# Spark
+metastore_db
+
+# Tags
+.tag*
+src
+performance_tests/
+*.iml
+
+# Backup files
+*.bak
+
+# More emacs gitignore
+*~
+
